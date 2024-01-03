@@ -1,0 +1,12 @@
+head ->style script title meta base link
+text-formatting -> b small strong div i em pre sup sub del
+link
+list 
+table
+form
+scripting
+image and objects
+
+meta-> keyword and viewport
+base -> target
+small tag-> copyright contents
