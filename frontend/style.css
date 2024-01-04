@@ -1,3 +1,44 @@
 body{
     font-size: large;
+    font-family: monospace;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    margin-left: 5%;
+}
+.skills{
+    /* font-size: small; */
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+a{
+    text-decoration: none;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-left: 5%;
+}
+.professional_experience{
+    margin-left: 5%;
+}
+.header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    padding:10%;
 }

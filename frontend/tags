@@ -10,3 +10,10 @@ image and objects
 meta-> keyword and viewport
 base -> target
 small tag-> copyright contents
+
+CSS selectors!
+-> Simple selectors ->> id, name, class
+-> combinative selectors ->> descendent(space), child(>), adjacent sibling(+), general(~)
+-> pseudo-element selectors ->> completely on contents -> (tag::type) first-letter, first-line, selection, marker, before, after 
+-> pseudo-class selectors ->> completely on links(: , a:types) link, active, visited, hover
+-> attribute selectors ->> name, value

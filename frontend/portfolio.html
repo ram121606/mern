@@ -3,24 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="2">
+    <!-- <meta http-equiv="refresh" content="2"> -->
     <title>Portfolio</title>
     <link rel="stylesheet" href="../frontend/style.css">
 </head>
 <body>
-    <pre><h2>Ramasubramanyam Padmanabhan</h2><h3>    Software Developer</h3></pre>
-    <b>About me</b><div class="about">
-        <pre>A final year student specialized in Computer Science and Engineering.
-Interested in Full-Stack Development.
-Currently working on technologies like Angular and FastApi.
-Keen interest to develop my skills in full-stack development and other areas like Machine Learning.
-
-        </pre>
+    <div class="navigation">
+        <nav>
+            <a href="#header">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#professional_experience">Professional Experience</a>
+        </nav>
     </div>
-    <b>Skills</b><div class="skills"></div>
-    <b>Projects</b><div class="projects"></div>
-    <b>Professional Experience</b><div class="professional_experience"></div>
-    <b>Certifications</b><div class="certificates"></div>
+
+    <div class="main">
+        <pre id='header' class="header"><h2>Ramasubramanyam Padmanabhan</h2><h3>    Software Developer</h3></pre>
+
+    <!--About me-->
+    <b>About me</b><div class="about">
+        <pre>🧑‍🎓A final year student specialized in Computer Science and Engineering.
+💻Interested in Full-Stack Development.
+👨🏻‍💻Currently working on technologies like Angular and FastApi.
+Keen interest to develop my skills in full-stack development and other areas like Machine Learning.
+        </pre>
+        <div class="links">
+            Have a look at my profiles..
+            <a href="https://www.linkedin.com/in/ramasubramanyam-padmanabhan-404823256" target="_blank">Linkedin</a>
+            <a href="https://www.github.com/ram121606" target="_blank">Github</a>
+        </div>
+    </div><br><br>
+
+    <!-- Skills -->
+    <b>Skills</b><div id="skills" class="skills">
+        <div><br>
+            <b>Frameworks</b>
+            <ul>
+                <li>Angular</li>
+                <li>FastApi</li>
+            </ul>
+        </div>
+        <div><br>
+            <b>Frontend</b>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div><br>
+            <b>Databases</b>
+            <ul>
+                <li>Mongodb</li>
+                <li>MYSQL</li>
+            </ul>
+        </div>
+        <div><br>
+            <b>Tools</b>
+            <ul>
+                <li>Git</li>
+                <li>VSCode</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <b>Projects</b><div id="projects" class="projects">
+        <div>
+            <a href="https://github.com/ram121606/leetcode-scrape" target="_blank">
+            <h4><li>Leetcode Stats</li></h4>
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/ram121606/comment-analysis" target="_blank">
+            <h4><li>Comment Analysis</li></h4>
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/ram121606/shorturl_angular" target="_blank">
+            <h4><li>URL Nicknamer</li></h4>
+            </a>
+        </div>
+    </div><br>
+
+    <!-- Professional Experience -->
+    <b>Professional Experience</b><div id="professional_experience" class="professional_experience">
+        <dl>
+            <dt><strong>Internship</strong>,Brainery Spot</dt>
+            <dd>A one week internship in web development with basics of technologies used in web development.</dd>
+        </dl>
+    </div>
+    </div>
+    
+    
+    <!-- <b>Certifications</b><div class="certificates"></div> -->
 
 </body>
 </html>
