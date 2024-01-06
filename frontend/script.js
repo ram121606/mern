@@ -24,3 +24,8 @@ switch(val){
     default:
         alert("Not a rainbow color")
 }
+
+function exmaple(name,age){ this.name = name; this.age = age}  
+let obj = new exmaple("karan",99) 
+obj.name;
+obj.age
