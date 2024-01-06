@@ -17,3 +17,7 @@ CSS selectors!
 -> pseudo-element selectors ->> completely on contents -> (tag::type) first-letter, first-line, selection, marker, before, after 
 -> pseudo-class selectors ->> completely on links(: , a:types) link, active, visited, hover
 -> attribute selectors ->> name, value
+
+forms-> type=>text, password, button, checkbox, radio, submit
+form elements-> input, label, button, text area, legend, fieldset, datalist, select, option, optgroup, output, 
+
