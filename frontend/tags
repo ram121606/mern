@@ -33,3 +33,6 @@ JS understands only objs whereas server understands only JSON srting. Inorder to
 
 promise => either a success or failure
 consists of 4 states => pending, fulfilled, rejected,  settled
+promise all -> handling multiple promises at the same time , returns when it encounters a false promise
+promise any -> same as all but returns when it encounters a true promise
+promise allSettled -> returns all the promises irrespective of the results

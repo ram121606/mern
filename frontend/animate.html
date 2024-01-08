@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.body.style = 'background-color : aqua'
+        let button = document.createElement("button")
+        button.innerHTML = "Click"
+        document.body.append(button)
+        button.addEventListener('click',animate)
+        div = document.createElement("div")
+        document.body.append(div)
+        div.style = 'background-color:red'
+        
+        
+        function animate(){
+            console.log('working')
+            div.style = 'width:100px;height:100px; background-color: red;transform: translate(1150px,450px); transition-duration:5s'
+       
+        }
+    </script>
+</body>
+</html>

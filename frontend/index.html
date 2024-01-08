@@ -193,21 +193,72 @@ create an array which should have combination of two objects and one function  -
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <style>
+        #table{
+            border: 2px solid;
+        }
+    </style> -->
  </head>
  <body>
-    <br>
-    <script>
+    <!-- <input type="text" name="ip"><br>
+    <input id="ip" type="number" placeholder="enter a number"> -->
+    <!-- <input id="v1" type="text">
+    <input id="v2" type="text">
+    <input type="submit" onclick="validate()" value="Validate">  -->
+
+    <h2 onclick="this.innerHTML = 'Hello' ">Welcome</h2>
+
+
+    <!-- <table id="table">
+        <tr>
+            <th>one</th>
+            <th>two</th>
+        </tr>
+    </table> -->
+    <!-- <script>
          function disp(){
-            return new Promise((res,rej)=>{
-                let result = 11
-                if(result %2 == 0){
-                    res()
+            let one = new Promise((resolve,reject)=>{
+                let res = true
+                if(res){
+                    setTimeout(resolve,1000,"One reachhed")
                 }else{
-                    rej()
+                    reject("1 Not reached")
                 }
             })
+
+            let two = new Promise((resolve,reject)=>{
+                let res = false
+                if(res){
+                    setTimeout(resolve, 2000, "Two reached")
+                }else{
+                    reject("2 Not reached")
+                }
+            })
+
+            let three = new Promise((resolve, reject)=>{
+                let res = false
+                if(res){
+                    setTimeout(resolve, 3000, "Three reached")
+                }else{
+                    reject("3 Not reached")
+                }
+            })
+            Promise.all([one,two,three]).then((res)=>{console.log("Sucess",res)}).catch((res)=>{console.log("Error",res)})
          }
-         disp().then(()=>{console.log("Even")}).catch(()=>{console.log("Odd")})
+         disp()
+    </script> -->
+    <script>
+        let tab = document.createElement("table")
+        tab.setAttribute("id","table")
+        document.body.append(tab)
+       // document.getElementById('table').style.border = '2px solid' 
+        document.getElementById('table').setAttribute('border','2px solid')
+        function validate(){
+            let r1 = document.getElementById('v1').value
+            let r2 = document.getElementById('v2').value
+            let t = document.getElementById('table')
+            t.innerHTML += `<tr><td>${r1}</td><td>${r2}</td></tr>`
+        }
     </script>
 </body>
  </html>
